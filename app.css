@@ -1,0 +1,49 @@
+* {
+    font-family: 'Share Tech Mono', monospace, sans-serif;
+}
+
+body {
+    background-color: #ffbc42;
+    color: #d81159;
+}
+
+#MainNav .navbar-brand {
+    /* color: #0496ff; */
+    color: #d81159;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#MainNav .navbar-brand:hover {
+    cursor: default;
+}
+
+#MainNav .nav-link {
+    color: #0496ff;
+}
+
+#MainNav .nav-link:hover {
+    color: white;
+}
+
+#MainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-submit {
+    background-color: #0496ff !important;
+}
+
+.btn-submit:hover {
+    background-color: #0463a8 !important;
+}
+
+/* .btn-submit:hover {
+    background-color: white !important;
+    color: #0496ff !important;
+} */
