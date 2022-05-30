@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: #ffbc42;
-    color: #d81159;
+    background-color: #002c5c;
+    color: #e31c79;
 }
 
 #MainNav .navbar-brand {
     /* color: #0496ff; */
-    color: #d81159;
+    color: #ffd700;
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -43,12 +43,31 @@ p {
     background-color: #0463a8 !important;
 }
 
-.bi.bi-eyeglasses {
-    color: #0496ff;
-}
 
 @media (max-width: 1143px) {
     #GroupHeading h1 {
         font-size: 3rem;
     }
+}
+
+.frame {
+    fill: #ffd700;
+}
+
+.eye {
+    fill: #e31c79;
+}
+
+h1,
+h2 {
+    color: #ffd700;
+}
+
+.form-control {
+    background-color: white;
+    transition: 0.25s;
+}
+
+.form-control:hover {
+    background-color: darkgray;
 }
