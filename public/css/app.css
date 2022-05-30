@@ -43,7 +43,12 @@ p {
     background-color: #0463a8 !important;
 }
 
-/* .btn-submit:hover {
-    background-color: white !important;
-    color: #0496ff !important;
-} */
+.bi.bi-eyeglasses {
+    color: #0496ff;
+}
+
+@media (max-width: 1143px) {
+    #GroupHeading h1 {
+        font-size: 3rem;
+    }
+}
