@@ -44,12 +44,6 @@ p {
 }
 
 
-@media (max-width: 1143px) {
-    #GroupHeading h1 {
-        font-size: 3rem;
-    }
-}
-
 .frame {
     fill: #ffd700;
 }
@@ -70,4 +64,16 @@ h2 {
 
 .form-control:hover {
     background-color: darkgray;
+}
+
+.navbar.scrolled {
+    background-color: #00346b;
+    /* background-color: #e31c79c4; */
+    transition: 400ms;
+}
+
+@media (max-width: 1143px) {
+    #GroupHeading h1 {
+        font-size: 3rem;
+    }
 }
