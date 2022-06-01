@@ -23,7 +23,7 @@ body {
 }
 
 #MainNav .nav-link:hover {
-    color: white;
+    color: #ffd700;
 }
 
 #MainNav {
@@ -67,9 +67,24 @@ h2 {
 }
 
 .navbar.scrolled {
-    background-color: #00346b;
+    background-color: #002c5c;
     /* background-color: #e31c79c4; */
     transition: 400ms;
+}
+
+div.carousel-caption h5,
+p {
+    background-color: #002c5c;
+}
+
+.carousel-control-next-icon {
+    background-color: #002c5c;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    background-color: #002c5c;
+    border-radius: 50%;
 }
 
 @media (max-width: 1143px) {
